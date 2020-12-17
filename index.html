@@ -1,91 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
 <head>
-	<title>Rohan's Website</title>
-	<style>
-		header {
-  background-color: rgb(255, 255, 255);
-  padding: 1em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
- 
-  box-shadow: 0 2px 3px rgb(0, 0, 0);
-}
-nav ul {
-  display: flex;
-  width: auto;
-  justify-content: center;
-  border: solid;
-  
-}
-li {
-  list-style: none;
-  color: rgb(0, 0, 0);
-  font-size: 1.3em;
-  opacity: 0.6;
-  cursor: pointer;
-  padding: 15px;
-}
-li:hover{
-  background-color: black;
-  color:white;
-}
-a{
-  text-decoration: none;
-  text-emphasis: none;
-  color: black;
-}
-a:hover{
-  text-decoration: none;
-  color: rgb(20, 20, 184);
-}
-
-h5{
-  text-align: center;
-  border: 5px;
-  border-color: black;
- 
-}
-
-		h1 {
-			padding: 50 px;
-			background-color: pink;
-			color: white;
-			text-align: center;
-		}
-		footer{
-			text-align: center;
-		}
-		</style>
+  <meta charset="UTF-8">
+  <title>Rohan Makai Shrestha</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css'><link rel="stylesheet" href="./style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">   
 </head>
-<header>
-  <nav>
-    <ul>
-    
-    <li> <a href="index.html"> Home</a></li>
-	<li> <a href="interest.html"> Interest</a></li>
-	<li> <a href="gallery.html"> Gallery</a></li>
-	<li> <a href="friends.html"> Friends</a></li>
-	<li> <a href="mycreation.html"> My Creations</a></li>
-	<li> <a href="contactme.html"> Contact Me</a></li>
-</header>
-
 <body>
-	<h1>Welcome to my portfolio</h1>
-	<img src="1.jpg" height= "300" width= "500">
-<br></br>
-	
-	<h3 title=about Rohan>About Myself </h3>
-		<p> Hello my name is <b>Rohan</b> and I am a very <i>good </i> boy. </p>
+<!-- partial:index.partial.html -->
+<nav class="uk-navbar-container" uk-navbar>
 
-	<h3>My Interests </h3>
-		<p> I love playing with girls</p>
+    <div class="uk-navbar-right">
 
-	<footer>
-		<p> copyright Rohan Makai Shrestha 2020</p>
-	</footer>
+        <ul class="uk-navbar-nav">
+            <li> <a href="index.html"> Home</a></li>
+            <li> <a href="interest.html"> Interest</a></li>
+            <li> <a href="gallery.html"> Gallery</a></li>
+            <li> <a href="friends.html"> Friends</a></li>
+            <li> <a href="mycreation.html"> My Creations</a></li>
+            <li> <a href="contactme.html"> Contact Me</a></li>
+            
+        </ul>
+
+    </div> 
+
+</nav>
+<div class="hero uk-flex uk-flex-center uk-flex-middle uk-position-relative" uk-height-viewport="offset-top: true">
+  <div class="overlay"></div>
+  <div class="hero-content uk-text-center uk-light"> 
+    <h1 class="uk-heading-primary">Hi There!</h1>
+    <a href="#about" class="uk-button uk-button-default">Know Me!</a>
+  </div>
+</div>
+<!-- partial -->
+
+<!-- ABOUT START -->
+<section id="about">
+    <h2>ABOUT ME</h2>
+    <hr>
+    <img class="top-image" src="/img/about.JPG" alt="Rohan Makai Shrestha">
+    <div class="about-me">
+      <p>
+        My name is Rohan Makai Shrestha, a fourth year student at Kathmandu University. Love for the computers brings me to the web development. I can build web pages with HTML and CSS. Also I've learned <mark>command-line</mark>, <mark>git</mark>, <mark>PhotoShop</mark>          and learning <mark>JavaScript</mark>. Currently I am taking a bootcamp at FreeCodeCamp.
+      </p>
+      <!--Social icons-->
+      <h3>Also Find Me @</h3>
+    <button class="btn Facebook">Facebook</button>
+    <button class="btn Twitter">Twitter</button>
+    <button class="btn Google">Google+</button>
+    <button class="btn Linkedin">Linkedin</button>
+    <button class="btn Tumblr">Tumblr</button>
+    <button class="btn Instagram">Instagram</button>
+    </div>
+  </section>
+
+
+
+  <!-- ABOUT END -->
+
+  <footer>
+    <p>Copyright @ Rohan Makai Shrestha</p>
+  </footer>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js'></script><script  src="./script.js"></script>
+
 </body>
 
 </html>

@@ -1,0 +1,182 @@
+
+
+.hero {
+  background: url(img/1.JPG) center center / cover no-repeat;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: rgba(0,0,0,0.55);
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+h2{
+  text-align: center;
+  background-color: #2f2f41;
+  color: #fff;
+}
+.top-image {
+  height: 350px;
+  width: 350px;
+  margin: 0 auto 3em;
+  display: block;
+  border: 5px solid #2f2f41;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 767px) {
+  .about-me {
+      width: 620px;
+      margin: 0 auto;
+      text-align: center;
+  }
+}
+/* CONTACT */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#contact form {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: .5em;
+  border: none;
+  color: #2f2f41;
+  background-color: #fbf6db;
+}
+
+#contact input::-webkit-input-placeholder,
+#contact textarea::-webkit-input-placeholder {
+  color: #2f2f41;
+}
+
+#contact button {
+  background-color: #ff3c41;
+  color: #fbf6db;
+  border: none;
+  padding: .5em;
+  width: 10em;
+}
+
+#contact button:hover {
+  box-shadow: 3px 3px 6px rgba(000, 000, 000, .5);
+  transition: all .2s;
+}
+
+footer {
+  background-color: #2f2f41;
+  color: #fff;
+  text-align: center;
+}
+
+footer p {
+  line-height: 60px;
+  margin: 0;
+}
+/*============*/
+.btn {
+  position: relative;
+  vertical-align: top;
+  font-size:17px;
+  font-weight:650;
+  padding:7px 24px;
+  text-decoration:none;
+  color: #ffffff;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+    margin:20px;
+}
+.btn:hover {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/*Classic Button*/
+
+/*Facebook*/
+.Facebook{
+  background: #3B5998;
+  border-bottom: 2px solid #17336d;
+  -webkit-box-shadow: inset 0 -1px #17336d;
+  box-shadow: inset 0 -1px #17336d;
+}
+.Facebook:active{
+    background:#2b4c92;
+}
+
+/*Twitter*/
+.Twitter{
+  background: #00aced;
+  border-bottom: 2px solid #0782b1;
+  -webkit-box-shadow: inset 0 -1px #0782b1;
+  box-shadow: inset 0 -1px #0782b1;
+}
+.Twitter:active{
+    background:#0199d2;
+}
+
+/*Google*/
+.Google{
+  background: #d34836;
+  border-bottom: 2px solid #9e2111;
+  -webkit-box-shadow: inset 0 -1px #9e2111;
+  box-shadow: inset 0 -1px #9e2111;
+}
+.Google:active{
+    background:#be3e2d;
+}
+
+/*Linkedin*/
+.Linkedin{
+  background: #007bb6;
+  border-bottom: 2px solid #004f75;
+  -webkit-box-shadow: inset 0 -1px #004f75;
+  box-shadow: inset 0 -1px #004f75;
+}
+.Linkedin:active{
+    background:#0074ac;
+}
+
+/*Tumblr*/
+.Tumblr{
+  background: #3d6993;
+  border-bottom: 2px solid #002549;
+  -webkit-box-shadow: inset 0 -1px #002549;
+  box-shadow: inset 0 -1px #002549;
+}
+.Tumblr:active{
+    background:#32506d;
+}
+
+/*Instagram*/
+.Instagram{
+  background: #517fa4;
+  border-bottom: 2px solid #00467e;
+  -webkit-box-shadow: inset 0 -1px #00467e;
+  box-shadow: inset 0 -1px #00467e;
+}
+.Instagram:active{
+    background:#32658e;
+}
