@@ -16,6 +16,10 @@
   position: relative;
   z-index: 1;
 }
+.small{
+  height:150px;
+  width: 370px;
+}
 h2{
   text-align: center;
   background-color: #2f2f41;
