@@ -184,3 +184,13 @@ footer p {
 .Instagram:active{
     background:#32658e;
 }
+
+.h1{
+	margin: 20px;
+	font-family: Comic Sans Ms;
+}	
+
+.p{
+	margin: 20px;
+	font-family: Comic Sans Ms;
+}
